@@ -1,0 +1,19 @@
+nvm install [version]: Este comando é usado para instalar uma versão específica do Node.js. Por exemplo, nvm install 14.17.0 instalará o Node.js na versão 14.17.0.
+
+nvm use [version]: Utilizado para mudar a versão do Node.js que está sendo usada no momento. Por exemplo, nvm use 14.17.0 fará com que o sistema comece a usar a versão 14.17.0 do Node.js.
+
+nvm ls ou nvm list: Mostra todas as versões do Node.js que estão instaladas no sistema, indicando qual está em uso no momento e marcando com um asterisco (*).
+
+nvm alias [name] [version]: Permite criar um alias (apelido) para uma versão específica do Node.js. Isso é útil para referenciar versões específicas com nomes mais simples. Por exemplo, nvm alias default 14.17.0 define a versão 14.17.0 como padrão sob o nome "default".
+
+nvm uninstall [version]: Remove a versão específica do Node.js do sistema. Por exemplo, nvm uninstall 14.17.0 desinstalará a versão 14.17.0 do Node.js.
+
+nvm current: Exibe a versão do Node.js que está atualmente em uso no sistema.
+
+nvm use --delete-prefix [version]: Remove os arquivos binários do Node.js e o cache npm associados a uma versão específica. Isso é útil se você estiver enfrentando problemas de instalação ou conflitos de versão.
+
+nvm which [version]: Mostra o caminho do executável do Node.js de uma versão específica. Por exemplo, nvm which 14.17.0 exibirá o caminho para o executável do Node.js na versão 14.17.0.
+
+criar .nvmrc com a [version] - Entrar na pasta do arquivo e usar o comando nvm use, para usar a versão do arquivo.
+
+node -v > .nvmrc -> salva a versão apropriada para aquele projeto.
